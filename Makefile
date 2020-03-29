@@ -11,4 +11,4 @@ install:	runtime checkout
 	pip3 install --upgrade mautrix-telegram[all]
 
 install-config:
-	cp -u mautrix-telegram/mautrix_telegram/example-config.yaml config.yml
+	cp -u mautrix-telegram/mautrix_telegram/example-config.yaml config.yaml
